@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+ int s,t,V;
+ printf("Program Menghitung Kecepatan Rata\n");
+ printf("Masukan Waktu (s): ");
+ scanf("%d",&s);
+ printf("Masukan Jarak (t): ");
+ scanf("%d",&t);
+ V = s%t;
+ printf("Kecepatan Rata-Ratanya adalah %d km/jam",V);
+ return 0;
+}
