@@ -1,12 +1,13 @@
-#program fungsi#
-baik perkenalkan nama saya i wayan kardiana dengan nim 2205551023, disini saya akan mempresentasikan program yang saya buat
-Oke disini saya membuat pemograman C yaitu program menghitung keliling dan luas persegi
-cara yang saya gunakan cuma membutuhkan 3 tahap yang pertama inputan dari user, proses dan hasil dari proses
-yang pertama tentunya kita hanya membutuhkan 1 library yaitu stdio.h karena kita cuma memakai int saja dikarenakan hanya membutuhkan 1 variabel proses saja
-Saya membuat 3 variabel integer berupa sisi, keliling dan juga luas
-variabel sisi dan keliling saya pakai untuk menyimpan inputan dari user 
-kemudian kita buat program printf untuk memberi tau  user inputan apa yang harus dimasukan 
-kemudian kita buat proses dengan mengambil sisa 1 variabel yaitu Luas karena untuk menghitung keliling dan luas 
-kita harus menghitung sisinya dulu  yaitu kita buat proses luas = sisi*sisi bahasa perkalian dalam c berupa *
-kemudian kita cetak hasil dari proses tersebut menggunakan printf.
+#include <stdio.h>
+int main(){
+ int sisi, keliling, luas;
+ printf("Program Menghitung Keliling dan Luas Persegi\n\n");
+ printf("Input Sisi : ");
+ scanf("%d", &sisi);
+ keliling = 4 * sisi;
+ luas = sisi * sisi;
+ printf("Keliling : %d\n", keliling);
+ printf("Luas : %d\n", luas);
+ return 0;
+}
 
